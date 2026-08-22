@@ -3,7 +3,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: 'helvetica neue';
+  font-family: 'Helvetica Neue', Helvetica;
 }
 html,
 body{
@@ -13,7 +13,7 @@ body{
 
 .Parent{
   min-height:100vh;
-  width: 100%;
+  min-width: 100%;
   background-color: #111;
   padding: 30px;
   display: flex;
@@ -24,13 +24,18 @@ body{
 
 .Card{
   background-color: white;
-  width: 280px;
-  height: 330px;
+  width: 270px;
+  height: 320px;
   border-radius: 30px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.Card:hover{
+  box-shadow: 10px 17px 39px 14px rgba(162, 11, 233, 0.44);
+  border-radius: 30px;
 }
 
 .top{

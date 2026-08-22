@@ -23,8 +23,7 @@ const Card = (props) => {
             <p>{props.location}</p>
         </div>
         <button>Apply now</button>
-        </div>
-        
+        </div>   
     </div>
   )
 }
